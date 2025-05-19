@@ -1,0 +1,99 @@
+            CLEAN CODE 
+
+clean code is not about code that works , but is about the code which can be understand 
+because a lot of time is spent to understand code and code should  be written in a way that is understandable 
+
+so what is clean code - the code which is readable and understandable 
+            should be consise and to the point
+            should avoid complex nesting and big code block
+            follow common best practices and pattern 
+
+
+Clean code doesn't mean your code should be typed strongly, strict typing just ensure readability and more importantly error handling 
+
+Clean code & Patterns and Principle goes hand to hand , Patterns & Principle help in writing clean code , and writing readable and maintainable code helps in clean code too
+
+Always question your existing code & refactor it a lot , that's best way to implement clean code 
+
+
+
+1st Key Point 
+    - Names 
+
+Rule - Name should be meaningful
+Well -named "Things" allow reader to understand your code without goint through it in detail
+
+Their is always more than one way to name something, our focus should be , our names shouldn't be bad/ not-readable 
+
+
+Naming Variables & Constants
+    - use nouns or short phrases with adjactive 
+    Eg - userData, isVaild
+
+
+Naming Functions/ Methods 
+    - think of it as commands that need to be executed 
+    - use verbs or short phrase with adjactive 
+    Eg- sendData() , inputIsVaild()
+
+
+Naming Classes 
+    - Use to create "things" 
+    - Use nouns
+    Eg- class User {} ,class RequestBody {}
+
+
+CASING 
+    - sanke_case : python 
+    - camelCase : java , javascript
+    - PascalCase : py, java, js (ClassName ) 
+    - kekbab-case : HTML
+
+
+Value is Object  , naming - user, database
+Value is Number/String , naming - name, age
+Value is Boolean , naming - isActive, loggedIn
+
+
+Naming Function & Methods 
+    - Based on Operations, Eg- getUser()
+    - if it returns a boolean Eg - isVaild()
+
+Naming classes 
+    -Describe the object 
+    Eg- User, Customer
+
+Inside the class when we write methods
+    we have getters and setter methods like getClientId 
+    and when we use it as a property then  we also name it like a property even though it is a function 
+    like user.clientId()
+
+
+Comments & Code Formating 
+
+only add comments if you want to explicitly describe something
+make your code written in such a way that it automatically described itself 
+
+
+Code Formating - improves readability 
+    -Vertical Formating 
+    - Horizontal Formating
+
+Formating rules differ between languages
+
+Search - [language] style guide 
+        Eg- javascript style guide
+
+Vertical Formating
+    - space between line 
+    -  make same content , together -> like a function is calling another function, try to put that function after the function is called 
+
+
+Horizontal Formating 
+    -  space between code 
+    - indentation
+
+
+
+
+
