@@ -3,6 +3,17 @@
 clean code is not about code that works , but is about the code which can be understand 
 because a lot of time is spent to understand code and code should  be written in a way that is understandable 
 
+when it comes to programming paradigm , which is  fundamental style or approach to programming — a way of thinking about and organizing code. It defines how programmers structure and execute their programs based on a specific methodology or philosophy.
+Their are mainly four type 
+    -1. Imperative Programming
+    -2. Declarative Programming
+    -3. Object-Oriented Programming (OOP)
+    -4. Functional Programming
+
+Depending upon the language these are taken in consideration
+
+
+
 so what is clean code - the code which is readable and understandable 
             should be consise and to the point
             should avoid complex nesting and big code block
@@ -92,6 +103,63 @@ Vertical Formating
 Horizontal Formating 
     -  space between code 
     - indentation
+
+
+While writing Functions
+    - try to keep the parameters as minimum as possible 
+    - but also keep your functions make in such a way that looking at it , we know what is it doing 
+
+Functions should only do one thing , what is one thing 
+    - Try spliting your code into multiple functions , these is known as abstractions meaning don't try to put all the code into one functions make small fucntions and add into one functions
+    - in the end make code spliting only needed, no need to do it too much
+
+
+
+Pure Functions 
+    - gives same output , based on parameter and has no side effects.
+
+ImPure Functions
+    - gives different output, based on parameter and has side effect 
+    what is a side effect -> when a function is called and not depending on the parameter the function does something , so independent of the parameter the function does something 
+
+Law of Demeter 
+    - you shouldn't access property of an object which you don't know about / object which is coming from outside / coming from API..
+    - rather than write a code which handle it 
+
+SOLID Principles 
+    - Single Responsibility
+    - Open-Closed Principle
+    - Liskov Substitution Principle
+    - Interface Segregation Principle
+    - Dependency Inversion Principle
+
+
+Single Responsibility - Classes should have a single responsibility - a class shouldn't change for more than one reason   
+it doesn't mean that our class should only have single function / responsibility in it , it means that the business logic must be seperated 
+like a class user has three functions , login, signup, assgin role , all these responsibility are allign to each other so no need to change anything 
+
+Open-Closed Principle -  Open for extension but closed for modification 
+
+Liskov Subsitution - Inheritance behaviour in simple words
+
+Interface Segregation - Many client specific interface is better than general purpose interface
+
+Dependecy Inversion - depend upon abstraction not concretions
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
 
 
 
